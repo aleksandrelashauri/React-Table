@@ -1,0 +1,12 @@
+{
+  "compact": false,
+  "presets": [
+    "@babel/react"
+  ],
+  "plugins": [
+      "styled-components",
+      "css-modules-transform",
+      "inline-react-svg",
+      ["module-resolver", { "root": ["./src"] }]
+    ]
+}
